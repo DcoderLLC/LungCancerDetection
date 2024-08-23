@@ -5,7 +5,7 @@ import Team from './Pages/Team';
 import About from "./Pages/About"
 import Home from './Pages/Home'
 import PageNotFound from './Pages/PageNotFound';
-import Footer from './components/Footer/Footer';
+import Footer from "./Components/Foot/Footer"
 import Navbar from './components/Navbar/Navbar';
 
 function App() {
