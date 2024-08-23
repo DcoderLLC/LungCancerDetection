@@ -6,7 +6,7 @@ import About from "./Pages/About"
 import Home from './Pages/Home'
 import PageNotFound from './Pages/PageNotFound';
 import Footer from "./Components/Foot/Footer"
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './Components/Nav/Navbar';
 
 function App() {
 
