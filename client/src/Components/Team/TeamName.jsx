@@ -1,5 +1,6 @@
 import { Box } from "@mui/material";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import nik from "../../assets/nik.jpg"
 
 const TeamName = () => {
   return (
@@ -14,7 +15,7 @@ const TeamName = () => {
             {teamData.map((member, index) => (
               <div key={index} className="w-full max-w-xs text-center">
                 <img
-                  className="object-cover object-center w-full h-48 mx-auto rounded-lg"
+                  className="object-cover object-center w-full h-72 mx-auto rounded-lg"
                   src={member.photo}
                   alt={member.name}
                 />
@@ -59,24 +60,23 @@ const TeamName = () => {
 
 const teamData = [
   {
-    name: "Ahmed Omer",
-    position: "CEO",
-    photo:
-      "https://images.unsplash.com/photo-1493863641943-9b68992a8d07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=739&q=80",
-    linkedin: "https://www.linkedin.com/in/ahmedomer",
-    github: "https://github.com/ahmedomer",
+    name: "Nikhil Ranjan",
+    position: "Full-Stack Developer & Data Scientist",
+    photo: nik,
+    linkedin: "https://www.linkedin.com/in/dcoder-nikhil",
+    github: "https://github.com/Dcoder-Nikhil",
   },
   {
-    name: "Jane Doe",
-    position: "Co-founder",
+    name: "Asad Ijtaba",
+    position: "Data Scientist",
     photo:
       "https://images.unsplash.com/photo-1516756587022-7891ad56a8cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
     linkedin: "https://www.linkedin.com/in/janedoe",
     github: "https://github.com/janedoe",
   },
   {
-    name: "Steve Ben",
-    position: "UI/UX",
+    name: "Vijay Hursh",
+    position: "Data Scientist",
     photo:
       "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80",
     linkedin: "https://www.linkedin.com/in/steveben",

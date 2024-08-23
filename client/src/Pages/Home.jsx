@@ -1,8 +1,14 @@
+import { Box } from '@mui/material'
 import {} from 'react'
+import HomeHero from '../Components/Home/HomeHero'
+import HomeInput from '../Components/Home/HomeInput'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <Box>
+      <HomeHero />
+      <HomeInput />
+    </Box>
   )
 }
 
