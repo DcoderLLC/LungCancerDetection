@@ -1,8 +1,12 @@
 import {} from 'react'
+import NotFound from '../Components/PageNotFound/NotFound'
+import { Box } from '@mui/material'
 
 const PageNotFound = () => {
   return (
-    <div>PageNotFound</div>
+    <Box>
+      <NotFound />
+    </Box>
   )
 }
 

@@ -1,8 +1,12 @@
+import { Box } from '@mui/material'
 import {} from 'react'
+import TeamName from '../Components/Team/TeamName'
 
 const Team = () => {
   return (
-    <div>Team</div>
+    <Box>
+      <TeamName />
+    </Box>
   )
 }
 
