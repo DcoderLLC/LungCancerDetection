@@ -12,22 +12,22 @@ const FAQList = () => {
   return (
     <Box>
       <section className="bg-white dark:bg-gray-900">
-        <div className="container max-w-4xl px-6 py-10 mx-auto">
+        <div className="container max-w-4xl px-4 py-8 mx-auto sm:px-6 sm:py-10 lg:px-8">
           <h1 className="text-2xl font-semibold text-center text-gray-800 lg:text-3xl dark:text-white">
             Frequently Asked Questions
           </h1>
 
-          <div className="mt-12 space-y-4">
+          <div className="mt-8 space-y-4 lg:mt-12">
             {faqData.map((faq, index) => (
               <div
                 key={index}
                 className="border-2 border-gray-100 rounded-lg dark:border-gray-700"
               >
                 <button
-                  className="flex items-center justify-between w-full p-6 lg:p-8"
+                  className="flex items-center justify-between w-full p-4 sm:p-6 lg:p-8"
                   onClick={() => handleClick(index)}
                 >
-                  <h1 className="font-semibold text-gray-700 dark:text-white">
+                  <h1 className="text-left text-sm font-semibold text-gray-700 sm:text-base lg:text-lg dark:text-white">
                     {faq.question}
                   </h1>
                   {open === index ? (
@@ -37,7 +37,7 @@ const FAQList = () => {
                   )}
                 </button>
                 {open === index && (
-                  <div className="p-6 text-sm text-gray-500 dark:text-gray-300 lg:p-8">
+                  <div className="p-4 text-sm text-gray-500 dark:text-gray-300 sm:p-6 lg:p-8 lg:text-base">
                     {faq.answer}
                   </div>
                 )}
