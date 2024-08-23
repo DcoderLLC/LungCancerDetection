@@ -1,7 +1,7 @@
 # Lung Cancer Prediction Project
 ================================
 
-### Welcome to ReadMe! :owlbert:
+### Welcome to ReadMe!
 
 [Visit the live demo]() to try out the application!
 
