@@ -3,7 +3,7 @@
 
 ### Welcome to ReadMe!
 
-[Visit the live demo]() to try out the application!
+[Visit the live demo](https://lung-cancer-detection-six.vercel.app/) to try out the application!
 
 ## Description
 ---------------
