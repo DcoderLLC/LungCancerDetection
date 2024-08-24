@@ -4,7 +4,7 @@ import {} from "react";
 const Feature = () => {
   return (
     <Box>
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white">
         <div className="container px-6 py-12 mx-auto">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div>
@@ -23,11 +23,11 @@ const Feature = () => {
                 />
               </svg>
 
-              <h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
+              <h1 className="mt-4 text-xl font-semibold text-gray-800">
                 Default Taiwindcss Config
               </h1>
 
-              <p className="mt-2 text-gray-500 dark:text-gray-400">
+              <p className="mt-2 text-gray-600 ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Dignissim fusce tortor, ac sed malesuada blandit. Et mi gravida
                 sem feugiat.
@@ -50,11 +50,11 @@ const Feature = () => {
                 />
               </svg>
 
-              <h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
+              <h1 className="mt-4 text-xl font-semibold text-gray-800">
                 Fully Responsive Components
               </h1>
 
-              <p className="mt-2 text-gray-500 dark:text-gray-400">
+              <p className="mt-2 text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Dignissim fusce tortor, ac sed malesuada blandit. Et mi gravida
                 sem feugiat.
@@ -92,11 +92,11 @@ const Feature = () => {
                 </defs>
               </svg>
 
-              <h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
+              <h1 className="mt-4 text-xl font-semibold text-gray-800">
                 RTL Languages Support
               </h1>
 
-              <p className="mt-2 text-gray-500 dark:text-gray-400">
+              <p className="mt-2 text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Dignissim fusce tortor, ac sed malesuada blandit. Et mi gravida
                 sem feugiat.

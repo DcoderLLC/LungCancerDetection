@@ -5,18 +5,12 @@ const AboutHero = () => {
     <Box className="bg-gray-900">
       <div className="container px-6 py-16 mx-auto text-center">
         <div className="max-w-lg mx-auto">
-          <h1 className="text-3xl font-semibold text-gray-800 dark:text-white sm:text-4xl lg:text-5xl">
+          <h1 className="text-3xl font-semibold text-white sm:text-4xl lg:text-5xl">
             Building Your Next App with Our Awesome Components
           </h1>
-          <p className="mt-6 text-gray-500 dark:text-gray-300 sm:text-lg">
+          <p className="mt-6 text-gray-300 sm:text-lg">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
             similique obcaecati illum mollitia.
-          </p>
-          <button className="px-5 py-2 mt-6 text-sm font-medium leading-5 text-center text-white capitalize bg-blue-600 rounded-lg hover:bg-blue-500 sm:text-base sm:px-8 sm:py-3 lg:mx-0 lg:w-auto focus:outline-none">
-            Start 14-Day Free Trial
-          </button>
-          <p className="mt-3 text-sm text-gray-400 sm:text-base">
-            No credit card required
           </p>
         </div>
 
