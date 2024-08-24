@@ -2,6 +2,7 @@ import { Box } from "@mui/material";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import nik from "../../assets/nik.jpg";
 import vijay from "../../assets/vijay.jpg"
+import arni from "../../assets/arni.jpg"
 
 const TeamName = () => {
   return (
@@ -70,10 +71,9 @@ const teamData = [
   {
     name: "Asad Ijtaba",
     position: "Data Scientist",
-    photo:
-      "https://images.unsplash.com/photo-1516756587022-7891ad56a8cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
-    linkedin: "https://www.linkedin.com/in/janedoe",
-    github: "https://github.com/janedoe",
+    photo:arni,
+    linkedin: "http://www.linkedin.com/in/asad-hasan-63028a282",
+    github: "https://github.com/AsadIjtaba",
   },
   {
     name: "Vijay Hursh",
