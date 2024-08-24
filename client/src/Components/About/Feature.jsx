@@ -24,13 +24,14 @@ const Feature = () => {
               </svg>
 
               <h1 className="mt-4 text-xl font-semibold text-gray-800">
-                Default Taiwindcss Config
+                Advanced Prediction Algorithms
               </h1>
 
               <p className="mt-2 text-gray-600 ">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Dignissim fusce tortor, ac sed malesuada blandit. Et mi gravida
-                sem feugiat.
+                Utilizing state-of-the-art machine learning models, our tool
+                provides highly accurate predictions based on the data you
+                provide. Our algorithms are constantly updated to ensure the
+                best possible outcomes.
               </p>
             </div>
 
@@ -51,13 +52,14 @@ const Feature = () => {
               </svg>
 
               <h1 className="mt-4 text-xl font-semibold text-gray-800">
-                Fully Responsive Components
+                User-Friendly and Responsive Design
               </h1>
 
               <p className="mt-2 text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Dignissim fusce tortor, ac sed malesuada blandit. Et mi gravida
-                sem feugiat.
+                Our platform is designed to be fully responsive, ensuring a
+                seamless experience on any device—whether you are using a
+                smartphone, tablet, or desktop. The intuitive interface makes it
+                easy for anyone to use.
               </p>
             </div>
 
@@ -93,13 +95,14 @@ const Feature = () => {
               </svg>
 
               <h1 className="mt-4 text-xl font-semibold text-gray-800">
-                RTL Languages Support
+                Multilingual Support
               </h1>
 
               <p className="mt-2 text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Dignissim fusce tortor, ac sed malesuada blandit. Et mi gravida
-                sem feugiat.
+                To make our tool accessible to a wider audience, we offer
+                support for multiple languages, including RTL (Right-to-Left)
+                language support. This ensures that users from various
+                linguistic backgrounds can easily interact with our platform.
               </p>
             </div>
           </div>
