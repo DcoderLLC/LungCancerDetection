@@ -1,0 +1,35 @@
+digraph ClassDiagram {
+	rankdir=LR size="8,5"
+	Patient [label="Patient
+- name
+- age
+- gender
+- symptoms
+- risk_factors
+
++ input_details()
++ validate_inputs()" shape=record]
+	LungCancerPredictor [label="LungCancerPredictor
+- model
+- input_data
+
++ load_model()
++ predict()
++ process_results()" shape=record]
+	APIHandler [label="APIHandler
+- endpoint_url
+- request_data
+
++ receive_data()
++ send_response()" shape=record]
+	WebApp [label="WebApp
+- frontend_components
+- user_input
+
++ render_ui()
++ send_to_api()
++ display_results()" shape=record]
+	WebApp -> APIHandler [label=Uses]
+	APIHandler -> LungCancerPredictor [label="Communicates with"]
+	Patient -> WebApp [label="Provides Input"]
+}

@@ -4,7 +4,7 @@ import axios from "axios";
 
 const HomeInput = () => {
   const [formData, setFormData] = useState({
-    name: "",
+    name: "", // Will be collected but not sent to the API
     gender: "",
     age: "",
     smoking: "",
@@ -36,7 +36,7 @@ const HomeInput = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Prepare the data as per the input structure for the API
+    // Prepare the data as per the input structure for the API (excluding the name)
     const inputData = [
       formData.gender === "male" ? 0 : formData.gender === "female" ? 1 : 2, // Gender
       parseInt(formData.age), // Age
